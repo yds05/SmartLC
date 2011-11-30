@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="week_top_margin">74px</dimen>
+<dimen name="week_left_margin">40px</dimen>
+<dimen name="cell_width">65px</dimen>
+<dimen name="cell_heigh">98px</dimen>
+<dimen name="cell_week_heigh">35px</dimen>
+<dimen name="cell_margin_top">2px</dimen>
+<dimen name="cell_margin_left">10px</dimen>
+<dimen name="cell_text_size">26px</dimen>
+<dimen name="navigation_heigh">80px</dimen>
+<dimen name="navigation_width">460px</dimen>
+<dimen name="navigation_margin_left">5px</dimen>
+<dimen name="navigation_margin_top">5px</dimen>
+</resources>

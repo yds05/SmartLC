@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+
+    <com.yud.Clock.ScrollLayout
+        android:id="@+id/scrollLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"	>
+	
+		<!-- <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="First View"
+	    /> 
+	    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Second View"
+	    />
+	    
+	    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Third View"
+	    />
+	    
+	    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Fourth View"
+	    /> --> 
+	    
+	   <!--  <com.yud.Clock.MonthView  android:id="@+id/calendar1"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" />
+	    
+	    <com.yud.Clock.MonthView  android:id="@+id/calendar2"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" />
+	     -->
+    </com.yud.Clock.ScrollLayout>
+
+</LinearLayout>
