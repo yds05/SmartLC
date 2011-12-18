@@ -1,0 +1,25 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent" 
+	android:layout_weight="1" 
+	android:gravity="left">
+		<ImageView 
+			android:id="@+id/callview_listheader_image"
+			android:src="@drawable/incoming_call"
+			android:paddingTop="1dip"
+			android:paddingLeft="1dip"
+			android:paddingBottom="4dip"
+			android:layout_height="40px" 
+			android:layout_width="40px" >
+		</ImageView>	
+	    <TextView  
+	    	android:id="@+id/callview_listheader_text"
+	    	android:layout_width="wrap_content"
+			android:layout_height="40px" 
+			android:textSize="20px"
+			android:gravity="center"
+			android:text="Incoming Call">
+		</TextView>	
+</LinearLayout>	

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/player_background">
+    
+    <!-- 
+    <include
+        layout="@layout/top_navigator" />-->
+    
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/top_navigator"
+        android:layout_above="@+id/bottom_menu">
+    </RelativeLayout>
+   
+   <!--  
+    <include
+        layout="@layout/bottom_buttons" />-->
+        
+</RelativeLayout>

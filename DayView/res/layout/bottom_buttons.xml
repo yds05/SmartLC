@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="70px"
+    android:layout_alignParentBottom="true"
+    android:weightSum="6.0"
+    android:background="@drawable/bgbottommenu"
+    android:orientation="horizontal">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent" 
+		android:id="@+id/btnAllView"
+		android:layout_weight="1" 
+		android:background="@drawable/btnnoprogressbackground"
+		android:gravity="center">
+			<ImageView android:background="@drawable/btnallview32" 
+				android:layout_gravity="center" 
+				android:layout_height="32px" 
+				android:layout_width="32px" 
+				android:layout_marginTop="4dp" />
+			<TextView  android:layout_width="wrap_content"
+				android:layout_height="15sp" 
+				android:textSize="12sp"
+				android:text="All" />
+	</LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent" 
+		android:id="@+id/btnEventView"
+		android:layout_weight="1" 
+		android:background="@drawable/btnnoprogressbackground"
+		android:gravity="center">
+			<ImageView android:background="@drawable/btneventview32" 
+				android:layout_gravity="center" 
+				android:layout_height="32px" 
+				android:layout_width="32px" 
+				android:layout_marginTop="4dp" />
+			<TextView  android:layout_width="wrap_content"
+				android:layout_height="15sp" 
+				android:textSize="12sp"
+				android:text="Event" />
+	</LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent" 
+		android:id="@+id/btnCameraView"
+		android:layout_weight="1" 
+		android:background="@drawable/btnnoprogressbackground"
+		android:gravity="center">
+			<ImageView android:background="@drawable/btncameraview32" 
+				android:layout_gravity="center" 
+				android:layout_height="32px" 
+				android:layout_width="32px" 
+				android:layout_marginTop="4dp" />
+			<TextView  android:layout_width="wrap_content"
+				android:layout_height="15sp"
+				android:textSize="12sp" 
+				android:text="Camera" />
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent" 
+		android:id="@+id/btnMessageView"
+		android:layout_weight="1" 
+		android:background="@drawable/btnnoprogressbackground"
+		android:gravity="center">
+			<ImageView android:background="@drawable/btnmessageview32" 
+				android:layout_gravity="center" 
+				android:layout_height="32px" 
+				android:layout_width="32px" 
+				android:layout_marginTop="4dp" />
+			<TextView  android:layout_width="wrap_content"
+				android:layout_height="15sp" 
+				android:textSize="12sp"
+				android:text="Message" />
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent" 
+		android:id="@+id/btnCallView"
+		android:layout_weight="1" 
+		android:background="@drawable/btnnoprogressbackground"
+		android:gravity="center">
+			<ImageView android:background="@drawable/btncallview32" 
+				android:layout_gravity="center" 
+				android:layout_height="32px" 
+				android:layout_width="32px" 
+				android:layout_marginTop="4dp" />
+			<TextView  android:layout_width="wrap_content"
+				android:layout_height="15sp"
+				android:textSize="12sp" 
+				android:text="Call" />
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent" 
+		android:id="@+id/btnMyLifeView"
+		android:layout_weight="1" 
+		android:background="@drawable/btnnoprogressbackground"
+		android:gravity="center">
+			<ImageView android:background="@drawable/btnmylifeview32" 
+				android:layout_gravity="center" 
+				android:layout_height="32px" 
+				android:layout_width="32px" 
+				android:layout_marginTop="4dp" />
+			<TextView  android:layout_width="wrap_content"
+				android:layout_height="15sp" 
+				android:textSize="12sp"
+				android:text="My Life" />
+	</LinearLayout>
+
+</LinearLayout>
